@@ -31,3 +31,4 @@ C:\Users\berkb\OneDrive\Masaüstü\BookStore\WebApi\obj\Debug\net8.0\refint\WebA
 C:\Users\berkb\OneDrive\Masaüstü\BookStore\WebApi\obj\Debug\net8.0\WebApi.pdb
 C:\Users\berkb\OneDrive\Masaüstü\BookStore\WebApi\obj\Debug\net8.0\WebApi.genruntimeconfig.cache
 C:\Users\berkb\OneDrive\Masaüstü\BookStore\WebApi\obj\Debug\net8.0\ref\WebApi.dll
+C:\Users\berkb\OneDrive\Masaüstü\BookStore\WebApi\obj\Debug\net8.0\WebApi.sourcelink.json
