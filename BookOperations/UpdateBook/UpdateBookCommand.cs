@@ -1,4 +1,5 @@
 using System.Data.Common;
+using AutoMapper;
 using Microsoft.AspNetCore.Builder.Extensions;
 using Microsoft.EntityFrameworkCore;
 using WebApi.Common;
@@ -12,9 +13,11 @@ namespace WebApi.BookOperations.UpdateBook
         public UpdateBookViewModel Model { get; set; }
         public int BookId {get; set;}
         private readonly BookStoreDbContext _dbContext;
-        public UpdateBookCommand(BookStoreDbContext dbContext)
+        private readonly IMapper _mapper;
+        public UpdateBookCommand(BookStoreDbContext dbContext, IMapper mapper)
         {
             _dbContext = dbContext;
+            _mapper = mapper;
         }
     
 
@@ -24,11 +27,13 @@ namespace WebApi.BookOperations.UpdateBook
             var book = _dbContext.Books.SingleOrDefault(x=>x.Id == BookId );
             if(book is null)
                 throw new InvalidOperationException("Bu isimde bir kitap yok");
+            
+            _mapper.Map(Model,book);
 
-            book.PageCount = Model.PageCount !=default ? Model.PageCount : book.PageCount;
-            book.PublishDate = Model.PublishDate !=default ? Model.PublishDate : book.PublishDate;
-            book.GenreId = Model.GenreId !=default ? Model.GenreId : book.GenreId;
-            book.Title = Model.Title !=default ? Model.Title : book.Title;
+            // book.PageCount = Model.PageCount !=default ? Model.PageCount : book.PageCount;
+            // book.PublishDate = Model.PublishDate !=default ? Model.PublishDate : book.PublishDate;
+            // book.GenreId = Model.GenreId !=default ? Model.GenreId : book.GenreId;
+            // book.Title = Model.Title !=default ? Model.Title : book.Title;
              
             _dbContext.Update(book);
             _dbContext.SaveChanges();
