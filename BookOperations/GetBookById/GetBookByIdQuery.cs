@@ -24,9 +24,10 @@ namespace WebApi.BookOperations.GetBookById
        return new BookDetailModel
        {
         Title = book.Title,
+        //Genre = ((GenreEnum)book.GenreId).ToString(),
         Genre = Enum.GetName(typeof(GenreEnum), book.GenreId),
         PageCount = book.PageCount,
-        PublishDate = book.PublishDate.ToString("dd/MM/yyyy")
+        PublishDate = book.PublishDate.Date.ToString("dd/MM/yyyy")
        };
 
     }
