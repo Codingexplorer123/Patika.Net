@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ZTyu8d8+Edg5jRP6F6JWJFJvNdMEX0pTq3Wyg/MVh4iEj5eo9lIQwJgvOk36qTHwssgXlhGPHsXSFNt+ZclxlA==",
+  "dgSpecHash": "R+jV9CF10wLMMvEE7pmovB8/zdMtCxil06QIvx0GPvVEG4kCSVGfezp3ehdpkoiXOY8vZtPJR3U4gMNiid9Eiw==",
   "success": true,
   "projectFilePath": "C:\\Users\\berkb\\OneDrive\\Masaüstü\\BookStore\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\berkb\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\berkb\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\berkb\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
     "C:\\Users\\berkb\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\berkb\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.0\\microsoft.aspnetcore.openapi.8.0.0.nupkg.sha512",
     "C:\\Users\\berkb\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

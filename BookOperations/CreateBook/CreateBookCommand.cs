@@ -40,10 +40,7 @@ namespace WebApi.BookOperations.CreateBook
             public int PageCount { get; set; }
             public DateTime PublishDate { get; set; }
 
-            public static implicit operator CreateBookModel(UpdateBookCommand.UpdateBookViewModel v)
-            {
-                throw new NotImplementedException();
-            }
+           
         }
     }
 }
