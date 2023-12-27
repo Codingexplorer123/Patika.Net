@@ -11,6 +11,8 @@ namespace WebApi.BookOperations.UpdateBook
             RuleFor(command=>command.Model.Title).MinimumLength(4).WithMessage("En az 4 karakter giriniz");
             RuleFor(command=>command.Model.PageCount).NotEmpty().GreaterThan(0);
             RuleFor(command=>command.Model.PublishDate).LessThan(DateTime.Now.Date);
+            RuleFor(command=>command.Model.GenreId).GreaterThan(0);
+           
             
         }
     }

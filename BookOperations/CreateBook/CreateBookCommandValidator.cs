@@ -12,6 +12,7 @@ namespace WebApi.BookOperations.CreateBook
             RuleFor(command=>command.Model.PublishDate.Date).NotEmpty().LessThan(DateTime.Now.Date);
             RuleFor(command=>command.Model.Title).NotEmpty().MinimumLength(4);
             
+
         }
     }
 }
