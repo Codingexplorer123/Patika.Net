@@ -13,7 +13,7 @@ using static WebApi.BookOperations.CreateBook.CreateBookCommand;
 using static WebApi.BookOperations.UpdateBook.UpdateBookCommand;
 
 
-namespace WebApi.AddControllers
+namespace WebApi.Controllers
 {
     [ApiController]
     [Route("[controller]s")]

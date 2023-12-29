@@ -1,6 +1,7 @@
 using AutoMapper;
 using WebApi.BookOperations.UpdateBook;
 using WebApi.DBOperations;
+using WebApi.Entities;
 
 namespace WebApi.BookOperations.CreateBook
 {
