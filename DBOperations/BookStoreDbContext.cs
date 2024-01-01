@@ -11,6 +11,14 @@ namespace WebApi.DBOperations
         }
         public DbSet<Book> Books {get;set;}
         public DbSet<Genre> Genres {get; set;}
+        public DbSet<Author> Authors {get; set;}
+
+        protected void OodelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<Book>().HasOne<Author>().WithMany().HasForeignKey(k=>k.AuthorId).
+                         OnDelete(DeleteBehavior.Restrict);
+        }
     }
 
 }

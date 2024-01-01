@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\berkb\\OneDrive\\Masaüstü\\BookStore\\WebApi\\WebApi.csproj": {}
+    "C:\\Users\\berkb\\OneDrive\\Masaüstü\\BookStore\\WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\berkb\\OneDrive\\Masaüstü\\BookStore\\WebApi\\WebApi.csproj": {
+    "C:\\Users\\berkb\\OneDrive\\Masaüstü\\BookStore\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\berkb\\OneDrive\\Masaüstü\\BookStore\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\berkb\\OneDrive\\Masaüstü\\BookStore\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "C:\\Users\\berkb\\OneDrive\\Masaüstü\\BookStore\\WebApi\\WebApi.csproj",
+        "projectPath": "C:\\Users\\berkb\\OneDrive\\Masaüstü\\BookStore\\WebApi.csproj",
         "packagesPath": "C:\\Users\\berkb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\berkb\\OneDrive\\Masaüstü\\BookStore\\WebApi\\obj\\",
+        "outputPath": "C:\\Users\\berkb\\OneDrive\\Masaüstü\\BookStore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\berkb\\AppData\\Roaming\\NuGet\\NuGet.Config",
